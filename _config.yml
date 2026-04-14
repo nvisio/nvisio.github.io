@@ -1,0 +1,10 @@
+title: nvis.io
+description: Software crafted by a solo developer
+url: https://nvis.io
+baseurl: ""
+
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - docs/
