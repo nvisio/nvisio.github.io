@@ -1,0 +1,19 @@
+<section class="projects">
+  <h2>Projects</h2>
+  <div class="project-grid">
+    {% for project in site.data.projects %}
+    <a class="project-card" href="{{ project.url }}">
+      <div class="project-icon" style="background: linear-gradient(135deg, {{ project.gradient_from }}, {{ project.gradient_to }});">
+        <span>{{ project.initial }}</span>
+      </div>
+      <h3>{{ project.name }}</h3>
+      <p>{{ project.description }}</p>
+      <div class="project-tags">
+        {% for tag in project.tags %}
+        <span>{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
