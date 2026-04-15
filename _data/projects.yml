@@ -1,6 +1,6 @@
 - name: K-Radio
   description: K-Radio Tuner
-  url: https://github.com/nvisio/kradio
+  url: https://apps.apple.com/app/k-radio-tuner/id6761031039
   initial: K
   gradient_from: "#667eea"
   gradient_to: "#764ba2"
@@ -10,7 +10,7 @@
 
 - name: TokenUsageMonitor
   description: Token usage tracking tool
-  url: https://github.com/nvisio/TokenUsageMonitor
+  url: https://apps.apple.com/app/tokenusagemonitor/id6761013095
   initial: T
   gradient_from: "#f093fb"
   gradient_to: "#f5576c"
