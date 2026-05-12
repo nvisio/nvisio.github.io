@@ -1,17 +1,42 @@
-<section class="projects">
-  <h2>Projects</h2>
-  <div class="project-grid">
+<section id="work">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="num">&sect; 01 &mdash; Selected works</div>
+      <h2 class="title">
+        Two apps, <span class="it">shipped.</span>
+      </h2>
+      <div class="meta">&mdash; 2024 / 2025<br>&mdash; On the App Store</div>
+    </div>
+
     {% for project in site.data.projects %}
-    <a class="project-card" href="{{ project.url }}">
-      <div class="project-icon" style="background: linear-gradient(135deg, {{ project.gradient_from }}, {{ project.gradient_to }});">
-        <span>{{ project.initial }}</span>
+    <a class="work" href="{{ project.url }}" target="_blank" rel="noreferrer">
+      <div class="idx">{{ project.idx }}</div>
+      <div class="title-col">
+        <div class="small-caps kicker-row">
+          <span>{{ project.kicker }}</span>
+          <span>&middot;</span>
+          <span>{{ project.year }}</span>
+          <span>&middot;</span>
+          <span>{{ project.platform }}</span>
+          <span>&middot;</span>
+          <span class="status">{{ project.status }}</span>
+        </div>
+        <h3>{{ project.title }} <span class="it">&mdash; {{ project.title_it }}</span></h3>
+        <p class="blurb">{{ project.blurb }}</p>
+        <div class="stack">
+          {% for tech in project.stack %}
+          <span class="tag">{{ tech }}</span>
+          {% endfor %}
+        </div>
       </div>
-      <h3>{{ project.name }}</h3>
-      <p>{{ project.description }}</p>
-      <div class="project-tags">
-        {% for tag in project.tags %}
-        <span>{{ tag }}</span>
-        {% endfor %}
+      <div class="preview-col">
+        {% if project.preview == "radio" %}{% include preview-radio.html %}{% endif %}
+        {% if project.preview == "token" %}{% include preview-token.html %}{% endif %}
+      </div>
+      <div class="cta-col">
+        <span class="cta">
+          App&nbsp;Store <span class="arrow">&#8599;</span>
+        </span>
       </div>
     </a>
     {% endfor %}

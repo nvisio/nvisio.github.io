@@ -1,19 +1,31 @@
-- name: K-Radio
-  description: K-Radio Tuner
-  url: https://apps.apple.com/app/k-radio-tuner/id6761031039
-  initial: K
-  gradient_from: "#667eea"
-  gradient_to: "#764ba2"
-  tags:
-    - macOS
+- idx: "001"
+  kicker: K-Radio Tuner
+  year: "2025"
+  platform: macOS
+  status: On sale
+  title: K-Radio Tuner
+  title_it: a Korean radio, on your Mac.
+  blurb: A native menu-bar tuner for Korea's terrestrial FM and DMB stations. Built around a single rotary dial, with crisp typography and zero ads — the kind of small app the Mac used to be full of.
+  stack:
     - Swift
+    - AppKit
+    - AVFoundation
+    - Menu bar
+  url: https://apps.apple.com/app/k-radio-tuner/id6761031039
+  preview: radio
 
-- name: TokenUsageMonitor
-  description: Token usage tracking tool
-  url: https://apps.apple.com/app/tokenusagemonitor/id6761013095
-  initial: T
-  gradient_from: "#f093fb"
-  gradient_to: "#f5576c"
-  tags:
-    - macOS
+- idx: "002"
+  kicker: TokenUsageMonitor
+  year: "2025"
+  platform: macOS
+  status: On sale
+  title: TokenUsageMonitor
+  title_it: know what your models cost.
+  blurb: A SwiftUI menu-bar app that tracks token consumption across LLM providers in real time — daily, monthly, by model and by project. No dashboards, no logins. Just a quiet number, always at hand.
+  stack:
     - SwiftUI
+    - Charts
+    - Menu bar
+    - Local-first
+  url: https://apps.apple.com/app/tokenusagemonitor/id6761013095
+  preview: token
