@@ -4,6 +4,12 @@ url: https://nvis.io
 baseurl: ""
 
 markdown: kramdown
+
+# Jekyll ignores dotfiles/dotfolders by default; force-include the
+# Apple App Site Association file so GitHub Pages publishes it.
+include:
+  - .well-known
+
 exclude:
   - Gemfile
   - Gemfile.lock
