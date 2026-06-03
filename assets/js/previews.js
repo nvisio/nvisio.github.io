@@ -1,5 +1,5 @@
 // Live preview animations for the works section.
-// - K-Radio: cycles through Korean FM stations, updating the dial pointer.
+// - Oh My Radio: cycles through Korean FM stations, updating the dial pointer.
 // - TokenUsageMonitor: increments a live token counter, animates a sparkline.
 
 (function () {

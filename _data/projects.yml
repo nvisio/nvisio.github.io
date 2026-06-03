@@ -1,9 +1,9 @@
 - idx: "001"
-  kicker: K-Radio Tuner
+  kicker: Oh My Radio
   year: "2025"
   platform: macOS
   status: On sale
-  title: K-Radio Tuner
+  title: Oh My Radio
   title_it: a Korean radio, on your Mac.
   blurb: A native menu-bar tuner for Korea's terrestrial FM and DMB stations. Built around a single rotary dial, with crisp typography and zero ads — the kind of small app the Mac used to be full of.
   stack:
@@ -11,7 +11,7 @@
     - AppKit
     - AVFoundation
     - Menu bar
-  url: https://apps.apple.com/app/k-radio-tuner/id6761031039
+  url: https://apps.apple.com/app/oh-my-radio/id6761031039
   preview: radio
 
 - idx: "002"

@@ -343,7 +343,7 @@ h1.headline .ac{ color:var(--accent) }
 }
 .work:hover .preview{ transform:translateY(-4px) }
 
-/* K-Radio dial preview */
+/* Oh My Radio dial preview */
 .pv-radio{
   background:radial-gradient(120% 90% at 50% 110%, #2a1607 0%, #0e0805 60%, #060403 100%);
 }
