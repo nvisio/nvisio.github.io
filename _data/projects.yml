@@ -1,11 +1,11 @@
 - idx: "001"
   kicker: Oh My Radio
   year: "2025"
-  platform: macOS
+  platform: iPhone, macOS
   status: On sale
   title: Oh My Radio
-  title_it: a Korean radio, on your Mac.
-  blurb: A native menu-bar tuner for Korea's terrestrial FM and DMB stations. Built around a single rotary dial, with crisp typography and zero ads — the kind of small app the Mac used to be full of.
+  title_it: an international radio, on your iPhone & Mac.
+  blurb: A native menu-bar tuner for all international terrestrial FM and DMB stations. Built around a single click, with crisp typography and zero ads — the kind of small app the iPhone & Mac used to be full of.
   stack:
     - Swift
     - AppKit
